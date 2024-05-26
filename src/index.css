@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont, 'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','sans-serif';
+    @apply bg-slate-100
+}
+
+@layer utilities{
+    .carousal-bg-color{
+        @apply bg-gradient-to-r from-gray-300/80 to-gray-200
+    }
+}
